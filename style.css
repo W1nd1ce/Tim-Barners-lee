@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    padding-top:875px;
+    text-align: center;
+}
+.profile{
+    border-radius:25% ;
+}
+#welcome{
+    position: absolute;
+    bottom:0;
+    background: linear-gradient(white 30%,Aquamarine 70%);
+    background:  linear-gradient(to right lightblue 30%,Lime 70%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#name{
+    font-size:50px ;
+    font-family: fantasy;
+    font-weight: bold;
+    color:azure;
+}
+h2{font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:chocolate;
+}
+#bio{
+    padding:50px;
+    font-family:cursive;
+    font-size:25px;
+}
+.line{
+    height:6px ;
+    background-color: black;
+    width: 70px;
+    margin:8px auto;
+}
+.paralax-inner{
+     display:table-cell;
+     vertical-align:middle;
+}
+.Pages{
+    position:fixed;
+ z-index:10;
+     cursor:pointer;
+     background-color:white;
+     width:100%;
+     margin-top:0px;
+     top:0px;
+}
+.Links{
+    display:inline;
+    padding-left:35px;
+    padding-right:30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size:35px;
+}
+.Links:hover{
+font-size:75px;
+text-decoration:underline;
+}
+
+a {
+    text-decoration: darkgoldenrod;
+    font-size:25px;
+}
+    #Contact{
+        background-color: lightgrey;
+    }
+    .Contact_1{
+        background-color: mintcream;
+        color: palegreen;
+
+    }
